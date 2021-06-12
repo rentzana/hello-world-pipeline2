@@ -1,7 +1,7 @@
 var request = require('supertest');
 var app = require('../index.js')
 describe('GET /', function () {
-    it('displays "Hello World!"', function (done) {
+    it('displays "Hello World 2!"', function (done) {
         // The line below is the core test of our app.
         request(app).get('/').expect('Hello World 1!', done);
     });
